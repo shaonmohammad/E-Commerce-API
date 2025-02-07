@@ -119,15 +119,7 @@ You can test the API using **Swagger UI** or **Postman**:
 - **ReDoc UI**: Available at **http://127.0.0.1:8000/redoc**
 - **Postman**: Use the provided endpoints with a JWT token (if required)
 
----
 
-## 🛠 Future Enhancements
-- Implement user roles (Admin, Customer, etc.)
-- Add product reviews and ratings
-- Integrate payment processing
-- Implement order history for users
-
----
 
 
 
