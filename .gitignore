@@ -1,0 +1,51 @@
+# 1️⃣ Ignore Python bytecode and compiled files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# 2️⃣ Ignore Virtual Environment
+venv/
+env/
+*.venv
+.Python
+
+# 3️⃣ Ignore environment variables & secrets
+.env
+.env.local
+.env.production
+.env.test
+config/settings.ini
+secrets.json
+
+# 4️⃣ Ignore IDE and Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# 5️⃣ Ignore Database and Migration Files
+*.db
+*.sqlite3
+migrations/
+alembic/
+
+# 6️⃣ Ignore Logs & Cache
+logs/
+*.log
+*.out
+*.pid
+*.seed
+*.bak
+*.tmp
+*.swp
+
+# 7️⃣ Ignore Python Dependencies (if using local install)
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 8️⃣ Ignore Docker & Deployment Files (optional)
+docker-compose.override.yml
+*.dockerfile
+*.dockerenv
